@@ -1,59 +1,6 @@
-.header {
-    border-radius: 18px;
-    box-shadow: 0 7px 20px 0 #0000002e;
-    backdrop-filter: blur(10px);
-    background: #ffffff;
-    left: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    position: fixed;
-    right: 20px;
-    top: 20px;
-    padding: 14px 18px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    z-index: 6;
-}
-
-.header-brand {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    gap: 10px;
-}
-
-.header-logo {
-    width: 42px;
-    height: 42px;
-    border-radius: 10px;
-    background: #ffcc00;
-    display: grid;
-    place-items: center;
-    font-weight: bold;
-    color: #111;
-}
-
-.header-title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #111111;
-    text-decoration: none;
-}
-
-.header-menu {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    margin: 0;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.header-link {
-    font-size: 14px;
-    color: #111111;
-    text-decoration: none;
+.container {
+    overflow: hidden;
+    min-height: 100vh;
 }
 
 .main {
@@ -133,7 +80,7 @@
     font-size: 278px;
     line-height: 1;
     letter-spacing: -0.05em;
-    color: #ecedf04d;
+    color: #ECEDF04D;
 }
 
 .main-image {
