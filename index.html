@@ -1,82 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bean Haven • Кофейня у дома</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"/>
+    <title>Dostaffkin — Доставка посылок между странами и внутри стран. Безопасно. Быстро. В целости и сохранности!</title>
+    <link rel="stylesheet" href="styles/base.css"/>
+    <link rel="stylesheet" href="styles/base_adaptive.css"/>
+    <link rel="stylesheet" href="styles/index.css"/>
+    <link rel="stylesheet" href="styles/index_adaptive.css"/>
 </head>
 <body>
-    <!-- HEADER -->
+<div class="container">
     <header class="header">
-        <div class="container">
-            <div class="logo">☕ Bean Haven</div>
-            <nav class="nav">
-                <a href="#about">О нас</a>
-                <a href="#menu">Меню</a>
-                <a href="#contact">Контакты</a>
-            </nav>
-        </div>
+        <a class="header-brand" href="#">
+            <div class="header-logo">D</div>
+            <div class="header-title">Dostaffkin</div>
+        </a>
+
+        <nav class="header-menu">
+            <a class="header-link" href="#">Оформить <span>доставку</span></a>
+            <a class="header-link" href="#">Отследить <span>посылку</span></a>
+        </nav>
     </header>
 
-    <!-- HERO -->
-    <section class="hero">
-        <div class="container">
-            <h1>Кофе, от которого<br>начинается хороший день</h1>
-            <p class="hero-subtitle">Свежая обжарка • Уютная атмосфера • Только натуральные ингредиенты</p>
-            <a href="#menu" class="btn">Смотреть меню</a>
-        </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2>Почему выбирают нас</h2>
-            <div class="cards">
-                <div class="card">
-                    <h3>🌱 100% арабика</h3>
-                    <p>Мы сами обжариваем зерно каждую неделю</p>
-                </div>
-                <div class="card">
-                    <h3>🏠 Уютный уголок</h3>
-                    <p>Мягкие кресла, тёплый свет и аромат кофе</p>
-                </div>
-                <div class="card">
-                    <h3>🚀 Быстрая доставка</h3>
-                    <p>За 30 минут кофе у вас дома или в офисе</p>
-                </div>
+    <main class="main">
+        <section class="main-info">
+            <div class="main-title">
+                <span>D</span>ostaffkin
             </div>
-        </div>
-    </section>
 
-    <!-- MENU -->
-    <section id="menu" class="section bg-light">
-        <div class="container">
-            <h2>Наше меню</h2>
-            <ul class="menu-list">
-                <li><span>Эспрессо</span> <span class="price">180 ₽</span></li>
-                <li><span>Капучино</span> <span class="price">260 ₽</span></li>
-                <li><span>Латте с лавандой</span> <span class="price">290 ₽</span></li>
-                <li><span>Флэт уайт</span> <span class="price">250 ₽</span></li>
-                <li><span>Матча латте</span> <span class="price">280 ₽</span></li>
-            </ul>
-        </div>
-    </section>
+            <div class="main-features">
+                <div class="main-feature">Отслеживание 24/7</div>
+                <div class="main-feature">Лучшие маршруты</div>
+                <div class="main-feature">Страхование посылок</div>
+                <div class="main-feature">Доставка в срок</div>
+                <div class="main-feature">Выгодные тарифы</div>
+            </div>
 
-    <!-- CONTACT -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Приходи к нам в гости</h2>
-            <p>Москва, ул. Лесная, 12 • 10:00 – 22:00</p>
-            <a href="tel:+79161234567" class="btn">☎ +7 (916) 123-45-67</a>
-        </div>
-    </section>
+            <div class="main-description">
+                Доставка посылок между странами и внутри стран.
+                Безопасно. Быстро. В целости и сохранности!
+            </div>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Bean Haven. Сделано с ❤️ на уроке по HTML + CSS</p>
-        </div>
-    </footer>
+            <div class="main-actions">
+                <a class="button" type="button" href="./order.html">Заказать доставку</a>
+                <a class="button button-white" type="button" href="./track.html">Отследить посылку</a>
+            </div>
+
+            <div class="main-title-ghost">Dostaffkin</div>
+        </section>
+
+        <section class="main-image">
+            <img src="images/main-image.png" alt="Main image"/>
+        </section>
+    </main>
+</div>
 </body>
 </html>
